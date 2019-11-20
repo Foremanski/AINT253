@@ -26,7 +26,7 @@ public class DisplayOnMouseHover : MonoBehaviour
         FadeText();        
     }
     void OnMouseOver()
-    {
+    { 
         displayInfo = true;
     }
 

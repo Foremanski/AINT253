@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInteract : MonoBehaviour
+public class animPlayerInteract : MonoBehaviour
 {
     public Animator animatedObject;
+    public string playAnimation;
 
     // Start is called before the first frame update
     void Start()
@@ -13,11 +14,12 @@ public class PlayerInteract : MonoBehaviour
     }
 
 
-    void Update()
+    void OnMouseOver()
     {
-        if(Input.GetKeyDown("E"))
+
+        if(Input.GetKeyDown("e"))
         {
-            animatedObject.Play("GateOpen");
+            animatedObject.Play(playAnimation);
         }
     }
 }

@@ -165,10 +165,12 @@
     <Compile Include="Assets\External Assets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\Scripts\animPlayerInteract.cs" />
+    <Compile Include="Assets\Scripts\changeLockInt.cs" />
     <Compile Include="Assets\Scripts\DisplayOnMouseHover.cs" />
+    <Compile Include="Assets\Scripts\displayPlayerInteract.cs" />
     <Compile Include="Assets\Scripts\OnMouseHover.cs" />
     <Compile Include="Assets\Scripts\PlayAnimation.cs" />
-    <Compile Include="Assets\Scripts\PlayerInteract.cs" />
     <None Include="Assets\External Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\External Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\External Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />

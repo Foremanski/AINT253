@@ -14,7 +14,7 @@ public class OnMouseHover : MonoBehaviour
 
     void Start()
     {
-        myText = GameObject.Find("Text").GetComponent<Text>();
+        myText = GameObject.Find("/Text").GetComponent<Text>();
 
 
         myText.color = Color.clear;
