@@ -86,7 +86,6 @@
     <Compile Include="Assets\External Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\External Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
@@ -170,7 +169,8 @@
     <Compile Include="Assets\Scripts\DisplayOnMouseHover.cs" />
     <Compile Include="Assets\Scripts\displayPlayerInteract.cs" />
     <Compile Include="Assets\Scripts\OnMouseHover.cs" />
-    <Compile Include="Assets\Scripts\PlayAnimation.cs" />
+    <Compile Include="Assets\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\stopPlayerMovement.cs" />
     <None Include="Assets\External Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\External Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\External Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
