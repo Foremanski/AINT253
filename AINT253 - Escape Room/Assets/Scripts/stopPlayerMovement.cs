@@ -2,20 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stopPlayerMovement : MonoBehaviour
+namespace UnityStandardAssets.Characters.FirstPerson
 {
-    // Start is called before the first frame update
-    void Start()
+    public class stopPlayerMovement : MonoBehaviour
     {
-        
-    }
+        public GameObject Player;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void OnMouseOver()
-    {
+        void OnMouseOver()
+        {
+            if (Input.GetKey("e"))
+            {
+                Player.GetComponent<playerMovementScript>().enabled = false;
+                Player.GetComponent<playerMovementScript>().mouseLook.lockCursor = false;
+            }
+
+            if(Input.GetKey(KeyCode.Escape))
+            {
+                Player.GetComponent<playerMovementScript>().enabled = true;
+                Cursor.lockState = CursorLockMode.Confined;
+            }
+        }
     }
 }
+
