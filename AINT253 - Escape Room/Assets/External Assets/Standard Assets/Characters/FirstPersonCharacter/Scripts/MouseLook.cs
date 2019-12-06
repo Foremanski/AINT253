@@ -2,10 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-namespace UnityStandardAssets.Characters.FirstPerson
-{
-    [Serializable]
-    public class MouseLook
+    public class MouseLook : MonoBehaviour
     {
         public float XSensitivity = 2f;
         public float YSensitivity = 2f;
@@ -14,8 +11,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float MaximumX = 90F;
         public bool smooth;
         public float smoothTime = 5f;
-        public bool lockCursor = true;
-
+        public bool lockCursor = true;      
 
         private Quaternion m_CharacterTargetRot;
         private Quaternion m_CameraTargetRot;
@@ -42,7 +38,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if(smooth)
             {
                 character.localRotation = Quaternion.Slerp (character.localRotation, m_CharacterTargetRot,
-                    smoothTime * Time.deltaTime);
+                    smoothTime * Time.deltaTime);                
                 camera.localRotation = Quaternion.Slerp (camera.localRotation, m_CameraTargetRot,
                     smoothTime * Time.deltaTime);
             }
@@ -82,7 +78,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_cursorIsLocked = true;
             }
-
+       
             if (m_cursorIsLocked)
             {
                 Cursor.lockState = CursorLockMode.Locked;
@@ -110,6 +106,4 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             return q;
         }
-
     }
-}

@@ -6,6 +6,7 @@ public class animPlayerInteract : MonoBehaviour
 {
     public Animator animatedObject;
     public string playAnimation;
+    public bool activateAnimation = false;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class animPlayerInteract : MonoBehaviour
     void OnMouseOver()
     {
 
-        if(Input.GetKeyDown("e"))
+        if (Input.GetKey("e") && activateAnimation == true)
         {
             animatedObject.Play(playAnimation);
         }

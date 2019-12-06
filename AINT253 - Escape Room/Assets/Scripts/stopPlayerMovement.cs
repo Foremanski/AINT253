@@ -13,13 +13,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (Input.GetKey("e"))
             {
                 Player.GetComponent<playerMovementScript>().enabled = false;
-                Player.GetComponent<playerMovementScript>().mouseLook.lockCursor = false;
+                Player.GetComponent<MouseLook>().lockCursor = false;
+                Cursor.visible = enabled;
+                Cursor.lockState = CursorLockMode.Confined;
             }
 
             if(Input.GetKey(KeyCode.Escape))
             {
                 Player.GetComponent<playerMovementScript>().enabled = true;
-                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.lockState = CursorLockMode.Locked;
+                Player.GetComponent<MouseLook>().lockCursor = true;
             }
         }
     }

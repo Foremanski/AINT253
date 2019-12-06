@@ -12,19 +12,25 @@ public class changeLockInt : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lockText = GameObject.Find("txtCodeInput").GetComponent<Text>();
         lockInt = int.Parse(lockText.text);
-       
     }
 
-    private void IncreaseInt()
+    public void IncreaseInt()
     {
-        lockInt += 1;
-        lockText.text = lockInt.ToString();
+        if(lockInt != 9)
+        {
+            lockInt += 1;
+            lockText.text = lockInt.ToString();
+        }
+        
     }
 
-    private void DecreaseInt()
+    public void DecreaseInt()
     {
-
+        if(lockInt != 0)
+        {
+            lockInt -= 1;
+            lockText.text = lockInt.ToString();
+        }       
     }
 }
