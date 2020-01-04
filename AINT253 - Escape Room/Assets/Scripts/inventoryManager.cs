@@ -9,7 +9,6 @@ public class inventoryManager : MonoBehaviour
     private bool hasDisc = false;
     public Image imageDisc;
 
-    private bool hasBadge = false;
     private bool hasPower = false;
     public Canvas InventoryUI;
 
@@ -22,7 +21,8 @@ public class inventoryManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(hasDisc == true)
+
+        if (hasDisc == true)
         {
             imageDisc.enabled = true;
         }
