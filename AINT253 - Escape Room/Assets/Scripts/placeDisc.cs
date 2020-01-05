@@ -24,9 +24,6 @@ public class placeDisc : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if(hasObject.get)
-        {
 
-        }
     }
 }
