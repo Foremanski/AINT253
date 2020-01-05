@@ -148,11 +148,13 @@
     <Compile Include="Assets\Scripts\DisplayOnMouseHover.cs" />
     <Compile Include="Assets\Scripts\displayPlayerInteract.cs" />
     <Compile Include="Assets\Scripts\inventoryManager.cs" />
+    <Compile Include="Assets\Scripts\lightFlicker.cs" />
     <Compile Include="Assets\Scripts\LockScripts\changeLockInt.cs" />
     <Compile Include="Assets\Scripts\LockScripts\checkCode.cs" />
     <Compile Include="Assets\Scripts\OnMouseHover.cs" />
     <Compile Include="Assets\Scripts\placeDisc.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
+    <Compile Include="Assets\Scripts\StartNewScene.cs" />
     <Compile Include="Assets\Scripts\stopPlayerMovement.cs" />
     <None Include="Assets\External Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\External Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
@@ -164,6 +166,7 @@
     <None Include="Assets\External Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\External Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\External Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Materials\BLUR.shader" />
     <None Include="Assets\External Assets\Standard Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
     <None Include="Assets\External Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\External Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
