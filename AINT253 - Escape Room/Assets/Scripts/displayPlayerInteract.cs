@@ -18,12 +18,14 @@ public class displayPlayerInteract : MonoBehaviour
         if(Input.GetKey("e"))
         {
             displayUI.gameObject.SetActive(true);
-            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            
             
         }
         if(Input.GetKey(KeyCode.Escape))
         {
             displayUI.gameObject.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
         }
 
     }
