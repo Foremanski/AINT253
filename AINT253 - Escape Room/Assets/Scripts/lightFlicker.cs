@@ -17,13 +17,14 @@ public class lightFlicker : MonoBehaviour
     IEnumerator flicker()
     {
         bool sceneactive = true;
-        float waitTime = Random.Range(5.0f, 1000.0f);
+        float waitTime = Random.Range(10.0f, 500.0f);
 
         while (sceneactive == true)
         {
             
             flickerLight.SetActive(true);
             yield return new WaitForSeconds(waitTime);
+            //Debug.Log("Light");
             flickerLight.SetActive(false);
             yield return new WaitForSeconds(waitTime);
         }

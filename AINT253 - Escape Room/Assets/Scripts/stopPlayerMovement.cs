@@ -2,29 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityStandardAssets.Characters.FirstPerson
-{
+
     public class stopPlayerMovement : MonoBehaviour
     {
+        public bool stopPlayer = false;
         public GameObject Player;
 
-        void OnMouseOver()
+        void Update()
         {
-            if (Input.GetKey("e"))
+            if (stopPlayer == true)
             {
-                Player.GetComponent<playerMovementScript>().enabled = false;
-                Player.GetComponent<MouseLook>().lockCursor = false;
+                gameObject.GetComponent<playerMovementScript>().enabled = false;
+                gameObject.GetComponent<MouseLook>().lockCursor = false;
                 Cursor.visible = enabled;
                 Cursor.lockState = CursorLockMode.Confined;
+
             }
 
-            if(Input.GetKey(KeyCode.Escape))
+            else if(stopPlayer == false)
             {
-                Player.GetComponent<playerMovementScript>().enabled = true;
+                gameObject.GetComponent<playerMovementScript>().enabled = true;
                 Cursor.lockState = CursorLockMode.Locked;
-                Player.GetComponent<MouseLook>().lockCursor = true;
+                gameObject.GetComponent<MouseLook>().lockCursor = true;
             }
         }
     }
-}
+
 

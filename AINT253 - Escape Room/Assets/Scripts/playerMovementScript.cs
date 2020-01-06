@@ -2,8 +2,8 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-namespace UnityStandardAssets.Characters.FirstPerson
-{
+
+
     public class playerMovementScript : MonoBehaviour
     {
         [Serializable]
@@ -225,4 +225,4 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
         }
     }
-}
+

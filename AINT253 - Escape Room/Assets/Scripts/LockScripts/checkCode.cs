@@ -12,6 +12,8 @@ public class checkCode : MonoBehaviour
 
     public GameObject activateGate;
     public GameObject inventoryManager;
+    public GameObject displaycase;
+    public GameObject blur;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,12 @@ public class checkCode : MonoBehaviour
         {
             Debug.Log("YES!");
             activateGate.GetComponent<animPlayerInteract>().activateAnimation = true;
+
+            //play unlock sound and animation
+            displaycase.GetComponent<AudioSource>().Play();
+            displaycase.GetComponent<animPlayerInteract>().activateAnimation = true;
+
+            displaycase.GetComponent<displayPlayerInteract>().unlocked = true;
         }
     }
 }

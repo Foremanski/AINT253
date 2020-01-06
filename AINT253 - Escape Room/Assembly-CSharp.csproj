@@ -145,6 +145,8 @@
     <Compile Include="Assets\External Assets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\External Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\Scripts\animPlayerInteract.cs" />
+    <Compile Include="Assets\Scripts\DiscHandler\pickupDisc.cs" />
+    <Compile Include="Assets\Scripts\DiscHandler\placeDisc.cs" />
     <Compile Include="Assets\Scripts\DisplayOnMouseHover.cs" />
     <Compile Include="Assets\Scripts\displayPlayerInteract.cs" />
     <Compile Include="Assets\Scripts\inventoryManager.cs" />
@@ -152,7 +154,6 @@
     <Compile Include="Assets\Scripts\LockScripts\changeLockInt.cs" />
     <Compile Include="Assets\Scripts\LockScripts\checkCode.cs" />
     <Compile Include="Assets\Scripts\OnMouseHover.cs" />
-    <Compile Include="Assets\Scripts\placeDisc.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
     <Compile Include="Assets\Scripts\StartNewScene.cs" />
     <Compile Include="Assets\Scripts\stopPlayerMovement.cs" />

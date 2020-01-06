@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class inventoryManager : MonoBehaviour
 {
 
-    private bool hasDisc = false;
+    public bool hasDisc = false;
     public Image imageDisc;
 
     private bool hasPower = false;
@@ -15,7 +15,6 @@ public class inventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        hasDisc = true;
     }
 
     // Update is called once per frame

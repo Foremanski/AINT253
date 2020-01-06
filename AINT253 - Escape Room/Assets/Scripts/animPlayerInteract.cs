@@ -18,9 +18,12 @@ public class animPlayerInteract : MonoBehaviour
     void OnMouseOver()
     {
 
-        if (Input.GetKey("e") && activateAnimation == true)
+        if (activateAnimation == true)
         {
+            
             animatedObject.Play(playAnimation);
         }
+
+        
     }
 }
