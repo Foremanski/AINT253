@@ -28,7 +28,7 @@ public class placeDisc : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if(Player.GetComponent<inventoryManager>().hasDisc == true)
+        if(Input.GetKey("e") && Player.GetComponent<inventoryManager>().hasDisc == true)
         {
             //enable object 
             Disc.SetActive(true);

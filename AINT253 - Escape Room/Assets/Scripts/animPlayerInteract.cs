@@ -11,16 +11,16 @@ public class animPlayerInteract : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animatedObject.GetComponent<Animator>();
+        //animatedObject.GetComponent<Animator>();
     }
 
 
     void OnMouseOver()
     {
-
+        
         if (activateAnimation == true)
         {
-            
+            Debug.Log("Yes???");
             animatedObject.Play(playAnimation);
         }
 
