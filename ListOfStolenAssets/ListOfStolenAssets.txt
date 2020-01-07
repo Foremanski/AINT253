@@ -1,2 +1,5 @@
 Polished Wood: https://texture.ninja/textures/Plain/24?texture=Wood-2093.jpg
 Brick Wall: https://texture.ninja/textures/Brick/1?texture=BrickWall-4535.jpg
+
+Wind Sound 1: https://freesound.org/people/florianreichelt/sounds/459977/
+Wind Sound 2: https://freesound.org/people/ShaneF91/sounds/386574/

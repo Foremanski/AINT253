@@ -29,7 +29,7 @@ public class checkCode : MonoBehaviour
             codeInputText3.text == ("3") &&
             codeInputText4.text == ("6"))
         {
-            Debug.Log("YES!");
+           // Debug.Log("YES!");
             activateGate.GetComponent<animPlayerInteract>().activateAnimation = true;
 
             //play unlock sound and animation
@@ -37,6 +37,8 @@ public class checkCode : MonoBehaviour
             displaycase.GetComponent<animPlayerInteract>().activateAnimation = true;
 
             displaycase.GetComponent<displayPlayerInteract>().unlocked = true;
+
+            displaycase.GetComponent<Rigidbody>().detectCollisions = false;
         }
     }
 }

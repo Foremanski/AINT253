@@ -20,7 +20,6 @@ public class animPlayerInteract : MonoBehaviour
         
         if (activateAnimation == true)
         {
-            Debug.Log("Yes???");
             animatedObject.Play(playAnimation);
         }
 
