@@ -10,11 +10,20 @@ public class StartNewScene : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(sceneName);
+        Debug.Log("Yeetus");
+
+        StartCoroutine("FadeOut");
     }
 
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    IEnumerator FadeOut()
+    {
+        yield return new WaitForSeconds(2.0f);
+        Debug.Log("Yeetus");
+        SceneManager.LoadScene(sceneName);
     }
 }

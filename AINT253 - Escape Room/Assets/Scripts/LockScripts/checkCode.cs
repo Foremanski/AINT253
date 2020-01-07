@@ -29,8 +29,8 @@ public class checkCode : MonoBehaviour
             codeInputText3.text == ("3") &&
             codeInputText4.text == ("6"))
         {
-           // Debug.Log("YES!");
-            activateGate.GetComponent<animPlayerInteract>().activateAnimation = true;
+            // Debug.Log("YES!");
+            activateGate.GetComponent<activateGate>().gateActivated = true;
 
             //play unlock sound and animation
             displaycase.GetComponent<AudioSource>().Play();
@@ -38,7 +38,7 @@ public class checkCode : MonoBehaviour
 
             displaycase.GetComponent<displayPlayerInteract>().unlocked = true;
 
-            displaycase.GetComponent<Rigidbody>().detectCollisions = false;
+            displaycase.GetComponent<CapsuleCollider>().enabled = false;
         }
     }
 }

@@ -15,7 +15,7 @@ public class animPlayerInteract : MonoBehaviour
     }
 
 
-    void OnMouseOver()
+    void Update()
     {
         
         if (activateAnimation == true)
