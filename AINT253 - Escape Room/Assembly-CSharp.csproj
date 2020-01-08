@@ -163,6 +163,7 @@
     <Compile Include="Assets\Scripts\playerFootsteps.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
     <Compile Include="Assets\Scripts\StartNewScene.cs" />
+    <Compile Include="Assets\Scripts\StartNewScreenNoDelay.cs" />
     <Compile Include="Assets\Scripts\stopPlayerMovement.cs" />
     <None Include="Assets\External Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\External Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />

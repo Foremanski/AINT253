@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class playerEscape : MonoBehaviour
 {
+    public Animator FadeOut;
+    public GameObject victoryButtons;
+    public GameObject player;
+    public GameObject inventoryUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +24,21 @@ public class playerEscape : MonoBehaviour
 
      void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("MainMenu");
+        player.GetComponent<playerMovementScript>().enabled = false;
+
+        Cursor.lockState = CursorLockMode.None;
+
+        FadeOut.enabled = true;
+        FadeOut.Play("FadeOut");
+        inventoryUI.SetActive(false);
+
+        StartCoroutine(loadButtons());
+
+    }
+    IEnumerator loadButtons()
+    {
+        yield return new WaitForSeconds(3.0f);
+        Cursor.visible = true;
+        victoryButtons.SetActive(true);
     }
 }

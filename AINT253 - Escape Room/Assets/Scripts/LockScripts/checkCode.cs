@@ -14,6 +14,7 @@ public class checkCode : MonoBehaviour
     public GameObject inventoryManager;
     public GameObject displaycase;
     public GameObject blur;
+    public GameObject badge;
 
     // Update is called once per frame
     void Update()
@@ -31,6 +32,8 @@ public class checkCode : MonoBehaviour
             displaycase.GetComponent<displayPlayerInteract>().unlocked = true;
 
             displaycase.GetComponent<CapsuleCollider>().enabled = false;
+
+            badge.GetComponent<badgePickup>().pickUpBadge();
         }
     }
 }

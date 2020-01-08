@@ -8,26 +8,18 @@ public class badgePickup : MonoBehaviour
     public GameObject badgeImage;
     public GameObject activateGate;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        badgeImage.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void pickUpBadge()
     {
-        
-    }
-
-    private void OnMouseOver()
-    {
-        if(Input.GetKey("e"))
-        {
-            gameObject.GetComponent<MeshRenderer>().enabled = false;
+            
             badgeLight.SetActive(false);
             badgeImage.SetActive(true);
             activateGate.GetComponent<activateGate>().gateActivated = true;
-        }
+
+            gameObject.SetActive(false);
     }
 }
