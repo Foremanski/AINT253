@@ -3221,10 +3221,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2560, y: 1440}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4086,7 +4086,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1125.3, y: 719.4}
+  m_SizeDelta: {x: 3427.9, y: 1864}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &370379897
 Animator:
@@ -4391,8 +4391,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -434.2, y: -186.4}
-  m_SizeDelta: {x: -12.450012, y: 0}
+  m_AnchoredPosition: {x: -1143.75, y: -480}
+  m_SizeDelta: {x: -5.500061, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &388220703
 MonoBehaviour:
@@ -5077,7 +5077,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 222.5, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &476631555
 GameObject:
@@ -5217,11 +5217,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 67
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -8111,15 +8111,15 @@ RectTransform:
   m_GameObject: {fileID: 907442664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.66705, y: 0.66705, z: 1.3341}
+  m_LocalScale: {x: 2.247892, y: 2.247892, z: 4.495784}
   m_Children: []
   m_Father: {fileID: 1936627934}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -436.2, y: -191.9}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -1146, y: -485.49997}
+  m_SizeDelta: {x: 105.99, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907442666
 MonoBehaviour:
@@ -9060,14 +9060,14 @@ RectTransform:
   m_GameObject: {fileID: 1140760646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.83354574, y: 0.83354574, z: 1.6670915}
+  m_LocalScale: {x: 2.2734127, y: 2.2734127, z: 4.5468254}
   m_Children: []
   m_Father: {fileID: 1936627934}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -436.2, y: -189.8}
+  m_AnchoredPosition: {x: -1146, y: -483.39996}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1140760648
@@ -10038,8 +10038,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6.6349907, y: 104}
-  m_SizeDelta: {x: 417.13, y: -43.2}
+  m_AnchoredPosition: {x: 10, y: 238}
+  m_SizeDelta: {x: 649.69995, y: 86.199974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1218226333
 MonoBehaviour:
@@ -10063,11 +10063,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 33
+    m_FontSize: 69
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 42
+    m_MaxSize: 86
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -11026,7 +11026,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -68}
-  m_SizeDelta: {x: 236.45, y: 56.8}
+  m_SizeDelta: {x: 419.38, y: 134.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1324701377
 MonoBehaviour:
@@ -15380,7 +15380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 677bfffd24f38e24192ac151405bcf31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gateActivated: 1
+  gateActivated: 0
   SovietBadge: {fileID: 5649037587653500333}
   VictoryMusic: {fileID: 762480954}
   animBadge: {fileID: 358286501}
@@ -15656,10 +15656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2560, y: 1440}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -17013,10 +17013,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2560, y: 1440}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
