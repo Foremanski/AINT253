@@ -10,6 +10,7 @@ public class placeDisc : MonoBehaviour
 
     public Animator animatedObject;
     public string playAnimation;
+    public bool hasPlayed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -30,13 +31,23 @@ public class placeDisc : MonoBehaviour
     {
         if(Input.GetKey("e") && Player.GetComponent<inventoryManager>().hasDisc == true)
         {
+            hasPlayed = true;
+
             //enable object 
             Disc.SetActive(true);
             imageDisc.SetActive(false);
             //play animation
             animatedObject.Play(playAnimation);
-            
+
             //play audio
+            gameObject.GetComponent<AudioSource>().Play();
+
+        }
+
+        if (Input.GetKey("e") && hasPlayed == true)
+        {
+            animatedObject.Play(playAnimation);
+            gameObject.GetComponent<AudioSource>().Play();
         }
     }
 }

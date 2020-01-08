@@ -15,12 +15,6 @@ public class checkCode : MonoBehaviour
     public GameObject displaycase;
     public GameObject blur;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -29,9 +23,7 @@ public class checkCode : MonoBehaviour
             codeInputText3.text == ("3") &&
             codeInputText4.text == ("6"))
         {
-            // Debug.Log("YES!");
-            activateGate.GetComponent<activateGate>().gateActivated = true;
-
+            // Debug.Log("YES!");         
             //play unlock sound and animation
             displaycase.GetComponent<AudioSource>().Play();
             displaycase.GetComponent<animPlayerInteract>().activateAnimation = true;

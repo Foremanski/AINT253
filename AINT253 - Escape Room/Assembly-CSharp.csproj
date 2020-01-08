@@ -147,6 +147,7 @@
     <Compile Include="Assets\Scripts\activateGate.cs" />
     <Compile Include="Assets\Scripts\animPlayerInteract.cs" />
     <Compile Include="Assets\Scripts\creakOnEnter.cs" />
+    <Compile Include="Assets\Scripts\DiscHandler\badgePickup.cs" />
     <Compile Include="Assets\Scripts\DiscHandler\pickupDisc.cs" />
     <Compile Include="Assets\Scripts\DiscHandler\placeDisc.cs" />
     <Compile Include="Assets\Scripts\DisplayOnMouseHover.cs" />
